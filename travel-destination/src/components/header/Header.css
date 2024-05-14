@@ -1,0 +1,10 @@
+.header {
+    color: #000000;
+    padding: 5px;
+    background: #DD761C;
+    background-image: linear-gradient(to right, #DD761C, #6DC5D1);
+}
+
+.header h1 {
+    margin: 0;
+}
