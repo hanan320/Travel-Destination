@@ -1,12 +1,15 @@
-
-import './Header.css'; // Import the CSS file
-
+import './Header.css';
+import Navbar from '../navbar/Navbar';
 function Header() {
     return (
+        <>
+            <div className="header">
+                <i class="fa-solid fa-passport"> Travel Destinations </i>
 
-        <div class='header'>
+                <div className='home-link'><Navbar /></div>
 
-            <i class="fa-solid fa-passport"></i><div> Travel Destinations</div>  </div>
+            </div>
+        </>
     );
 }
 
