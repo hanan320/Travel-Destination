@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #DD761C;
+    color: #fff;
+}
+
+.header .home-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header .home-link:hover {
+    background-color: #6DC5D1;
+}
+
+/* Remove underline */
+.header .home-link {
+    text-decoration: none;
+    color: #fff;
+    /* Fixed the color here */
+}
